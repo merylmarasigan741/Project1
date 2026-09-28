@@ -92,9 +92,7 @@ footer p{
 }
 
 /* workouts page styling */
-.cardio{
 
-}
 
 .exercises{
     /* border: green 1px solid; */
@@ -161,4 +159,36 @@ table{
 .workout h2{
     text-align: center;
     margin-top: 100px;
+}
+
+/*MEAL PREP PAGE STYLING*/
+.meals article{
+    margin: 20px;
+    padding: 20px;
+    background-color: #6599f4;
+    color:white;
+    border-radius: 8px;;
+}
+
+.img-stats{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+
+.stats{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.img-stats img{
+    border-radius: 8px;
+}
+
+.title-subtitle{
+    text-align: center;
+}
+
+.title-subtitle p{
+    margin-top: 10px;
 }
