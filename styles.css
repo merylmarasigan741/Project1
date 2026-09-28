@@ -1,0 +1,90 @@
+/* navbar styling */
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0;
+    background-color: #6599f4;
+}
+
+
+.logo a{
+    font-size: 50px;
+    color: white;
+    text-decoration: none;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    gap: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    margin-top: 0px;
+}
+
+main > p{
+    padding: 10px;
+    text-align: center;
+}
+
+.featured{
+    /* border: 1px solid red; */
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.featured-items{
+    display: flex;
+}
+.site-blurb{
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.featured-items section{
+    background-color: #6599f4;
+    margin: 5px;
+    padding: 10px;
+    color: white;
+    border-radius: 8px;
+}
+
+
+h3 a{
+    color: white;
+    text-decoration: none;
+}
+
+h1{
+    /* border: 1px solid green; */
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+
+footer p{
+    text-align: right;
+    background-color: #6599f4;
+    margin: 0;
+    padding: 15px;
+    color: white;
+}
